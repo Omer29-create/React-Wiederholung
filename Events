@@ -1,0 +1,4 @@
+HTML:
+<button onclick="shoot()">Take the Shot!</button>
+React
+<button onClick={shoot}>Take the Shot!</button>
