@@ -29,6 +29,13 @@ const Header = () => {
 }
 
 ---------------------------------------
+body {
+  background-color: #282c34;
+  color: white;
+  padding: 40px;
+  font-family: Sans-Serif;
+  text-align: center;
+}
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';            // 3. yol da harici bir css class'i olusturmak
