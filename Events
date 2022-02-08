@@ -70,3 +70,5 @@ ReactDOM.render(
 );
 // Garage
 // You have 3 cars in your garage.
+
+const cars = []; böyle olsaydi : // Garage
