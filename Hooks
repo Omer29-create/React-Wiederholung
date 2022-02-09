@@ -90,3 +90,18 @@ function Timer() {
 }
 
 ReactDOM.render(<Timer />, document.getElementById('root'));
+
+
+
+useEffect(() => {
+  //Runs on every render
+});
+
+useEffect(() => {
+  //Runs only on the first render
+}, []);
+
+useEffect(() => {
+  //Runs on the first render
+  //And any time any dependency value changes
+}, [prop, state]);
